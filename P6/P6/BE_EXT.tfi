@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+BE_EXT instance_name (
+    .Addr(Addr), 
+    .BEOp(BEOp), 
+    .BE(BE)
+    );
+
+

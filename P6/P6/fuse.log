@@ -1,0 +1,60 @@
+Running: E:\360downloads\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Documents/P6/P6/tb1_isim_beh.exe -prj E:/Documents/P6/P6/tb1_beh.prj work.tb1 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Documents/P6/P6/W_reg.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/RF.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/NPC.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/M_reg.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/MUX2.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/MUX.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/mult_div.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/IFU.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/hazard.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/E_reg.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/EXT.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/D_reg.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/DM.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/Data_EXT.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/ctrl.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/CMP.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/BE_EXT.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/ALU.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/mips.v" into library work
+Analyzing Verilog file "E:/Documents/P6/P6/tb1.v" into library work
+Analyzing Verilog file "E:/360downloads/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/Documents/P6/P6/mips.v" Line 282: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Documents/P6/P6/mips.v" Line 300: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Documents/P6/P6/mips.v" Line 321: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Documents/P6/P6/mips.v" Line 334: Port rs is not connected to this instance
+Completed static elaboration
+Compiling module IFU
+Compiling module D_reg
+Compiling module RF
+Compiling module EXT
+Compiling module NPC
+Compiling module CMP
+Compiling module E_reg
+Compiling module ALU
+Compiling module mult_div
+Compiling module M_reg
+Compiling module BE_EXT
+Compiling module DM
+Compiling module W_reg
+Compiling module Data_EXT
+Compiling module ctrl
+Compiling module hazard
+Compiling module MUX1
+Compiling module MUX2
+Compiling module mips
+Compiling module tb1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\tb1_isim_beh.exe.sim\libPortability.dll".
+Compiled 21 Verilog Units
+Built simulation executable E:/Documents/P6/P6/tb1_isim_beh.exe
+Fuse Memory Usage: 32928 KB
+Fuse CPU Usage: 921 ms

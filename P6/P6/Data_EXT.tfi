@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Data_EXT instance_name (
+    .Din(Din), 
+    .Addr(Addr), 
+    .Op(Op), 
+    .Dout(Dout)
+    );
+
+

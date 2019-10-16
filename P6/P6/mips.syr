@@ -1,0 +1,223 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.17 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx150-2-fgg484
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Documents\P5\P6\W_reg.v" into library work
+Parsing module <W_reg>.
+Analyzing Verilog file "E:\Documents\P5\P6\RF.v" into library work
+Parsing module <RF>.
+Analyzing Verilog file "E:\Documents\P5\P6\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "E:\Documents\P5\P6\M_reg.v" into library work
+Parsing module <M_reg>.
+Analyzing Verilog file "E:\Documents\P5\P6\MUX2.v" into library work
+Parsing module <MUX2>.
+Analyzing Verilog file "E:\Documents\P5\P6\MUX.v" into library work
+Parsing module <MUX1>.
+Analyzing Verilog file "E:\Documents\P5\P6\mult_div.v" into library work
+Parsing module <mult_div>.
+Analyzing Verilog file "E:\Documents\P5\P6\IFU.v" into library work
+Parsing module <IFU>.
+Analyzing Verilog file "E:\Documents\P5\P6\hazard.v" into library work
+Parsing module <hazard>.
+Analyzing Verilog file "E:\Documents\P5\P6\E_reg.v" into library work
+Parsing module <E_reg>.
+Analyzing Verilog file "E:\Documents\P5\P6\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "E:\Documents\P5\P6\D_reg.v" into library work
+Parsing module <D_reg>.
+Analyzing Verilog file "E:\Documents\P5\P6\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "E:\Documents\P5\P6\Data_EXT.v" into library work
+Parsing module <Data_EXT>.
+Analyzing Verilog file "E:\Documents\P5\P6\ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "E:\Documents\P5\P6\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "E:\Documents\P5\P6\BE_EXT.v" into library work
+Parsing module <BE_EXT>.
+Analyzing Verilog file "E:\Documents\P5\P6\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "E:\Documents\P5\P6\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "E:\Documents\P5\P6\mips.v" Line 112: Port nPC_sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Documents\P5\P6\mips.v" Line 280: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Documents\P5\P6\mips.v" Line 298: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Documents\P5\P6\mips.v" Line 319: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Documents\P5\P6\mips.v" Line 332: Port rs is not connected to this instance
+
+Elaborating module <mips>.
+
+Elaborating module <IFU>.
+ERROR:HDLCompiler:990 - "E:\Documents\P5\P6\IFU.v" Line 36: Cannot open file code.txt
+Module IFU remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "E:\Documents\P5\P6\IFU.v" Line 21: Empty module <IFU> remains a black box.
+
+Elaborating module <D_reg>.
+
+Elaborating module <RF>.
+"E:\Documents\P5\P6\RF.v" Line 56. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <EXT>.
+
+Elaborating module <NPC>.
+
+Elaborating module <CMP>.
+
+Elaborating module <E_reg>.
+
+Elaborating module <ALU>.
+
+Elaborating module <mult_div>.
+WARNING:HDLCompiler:1127 - "E:\Documents\P5\P6\mips.v" Line 181: Assignment to Busy_E ignored, since the identifier is never used
+
+Elaborating module <M_reg>.
+
+Elaborating module <BE_EXT>.
+
+Elaborating module <DM>.
+"E:\Documents\P5\P6\DM.v" Line 62. $display  32'b................................ 32'b................................ 32'b................................
+
+Elaborating module <W_reg>.
+
+Elaborating module <Data_EXT>.
+
+Elaborating module <ctrl>.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\ctrl.v" Line 130: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\ctrl.v" Line 136: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\ctrl.v" Line 168: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\ctrl.v" Line 170: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\ctrl.v" Line 171: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "E:\Documents\P5\P6\mips.v" Line 305: Size mismatch in connection of port <ALUSrc>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "E:\Documents\P5\P6\mips.v" Line 309: Assignment to LO_Write_E ignored, since the identifier is never used
+
+Elaborating module <hazard>.
+WARNING:HDLCompiler:1127 - "E:\Documents\P5\P6\hazard.v" Line 142: Assignment to j_D ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Documents\P5\P6\hazard.v" Line 143: Assignment to jal_D ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Documents\P5\P6\hazard.v" Line 153: Assignment to Tuse_RT2 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\hazard.v" Line 207: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\hazard.v" Line 212: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\hazard.v" Line 217: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\hazard.v" Line 221: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "E:\Documents\P5\P6\hazard.v" Line 225: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <MUX1>.
+
+Elaborating module <MUX2>.
+WARNING:HDLCompiler:634 - "E:\Documents\P5\P6\mips.v" Line 164: Net <LO_write_E> does not have a driver.
+WARNING:HDLCompiler:552 - "E:\Documents\P5\P6\mips.v" Line 112: Input port nPC_sel[3] is not connected on this instance
+--> 
+
+Total memory usage is 8025788 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

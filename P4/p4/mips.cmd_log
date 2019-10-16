@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips.ngc mips_synthesis.v 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg484-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips.ngc mips_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg484-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "E:/Documents/P4/p4/mips.xst" -ofn "E:/Documents/P4/p4/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg484-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips.ngc mips_synthesis.v 

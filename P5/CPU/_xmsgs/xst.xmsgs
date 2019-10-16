@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Documents\P5\CPU\mips.v" Line 221: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Documents\P5\CPU\mips.v" Line 241: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Documents\P5\CPU\mips.v" Line 257: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Documents\P5\CPU\mips.v" Line 269: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"E:\Documents\P5\CPU\IFU.v" Line 36: Signal &lt;<arg fmt="%s" index="1">im_reg</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\ctrl.v" Line 68: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 79: Assignment to <arg fmt="%s" index="1">func_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 103: Assignment to <arg fmt="%s" index="1">Tuse_RT2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 144: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 149: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 154: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 158: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Documents\P5\CPU\hazard.v" Line 162: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">31</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ifu</arg>&gt; of block &lt;<arg fmt="%s" index="4">IFU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">46</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">D_reg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">67</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RF</arg>&gt; of block &lt;<arg fmt="%s" index="4">RF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">86</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EXT</arg>&gt; of block &lt;<arg fmt="%s" index="4">EXT</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">98</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">NPC</arg>&gt; of block &lt;<arg fmt="%s" index="4">NPC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">112</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CMP</arg>&gt; of block &lt;<arg fmt="%s" index="4">CMP</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">127</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">E_reg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">151</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">165</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">M_reg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">184</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DM</arg>&gt; of block &lt;<arg fmt="%s" index="4">DM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">201</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">W_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">W_reg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CTRL_D</arg>&gt; of block &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">241</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CTRL_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">257</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CTRL_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">269</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CTRL_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">284</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Hazard</arg>&gt; of block &lt;<arg fmt="%s" index="4">hazard</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">311</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MUX1</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%d" index="2">337</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MUX2</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">MemtoReg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">ALUctr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_D</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">imm16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">imm26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">MemtoReg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">beq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">j_instr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">241</arg>: Output port &lt;<arg fmt="%s" index="3">jr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">rs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">imm16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">imm26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">MemtoReg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">ALUctr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">beq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">j_instr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">jr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">rs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">rt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">imm16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">imm26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">ALUctr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">beq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">j_instr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Documents\P5\CPU\mips.v</arg>&quot; line <arg fmt="%s" index="2">269</arg>: Output port &lt;<arg fmt="%s" index="3">jr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CTRL_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

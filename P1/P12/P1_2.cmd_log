@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Documents/ISE/P12/P1_2.xst" -ofn "E:/Documents/ISE/P12/P1_2.syr" 

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+D_reg instance_name (
+    .IR(IR), 
+    .PC4(PC4), 
+    .clk(clk), 
+    .reset(reset), 
+    .IR_D_en(IR_D_en), 
+    .IR_D(IR_D), 
+    .PC4_D(PC4_D)
+    );
+
+

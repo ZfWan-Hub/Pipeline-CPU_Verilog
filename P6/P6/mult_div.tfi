@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+mult_div instance_name (
+    .A(A), 
+    .B(B), 
+    .m_or_d(m_or_d), 
+    .HI_wirte(HI_wirte), 
+    .LO_write(LO_write), 
+    .start(start), 
+    .clk(clk), 
+    .reset(reset), 
+    .HI(HI), 
+    .LO(LO), 
+    .Busy(Busy)
+    );
+
+

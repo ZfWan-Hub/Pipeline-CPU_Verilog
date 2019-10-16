@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj P6 -o E:/Documents/P5/P6/Data_EXT.tfi -lib work E:/Documents/P5/P6//Data_EXT.v -module Data_EXT -template E:/360downloads/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj P6 -o E:/Documents/P5/P6/Data_EXT.tfi -lib work E:/Documents/P5/P6//Data_EXT.v -module Data_EXT -template E:/360downloads/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
